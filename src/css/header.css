@@ -164,25 +164,9 @@
 /* ===========media======== */
 
 @media screen and (min-width: 375px) {
-  .container {
-    max-width: 335px;
-  }
-
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .hero {
-      background-image: linear-gradient(#2e2f42b3, #2e2f42b3),
-        url(../images/office-image-mob-2x.jpg);
-    }
-  }
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 728px;
-  }
-
   .list-container {
     display: flex;
     align-items: center;
@@ -204,10 +188,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1240px;
-  }
-
   .nav-container {
     gap: 308px;
   }
