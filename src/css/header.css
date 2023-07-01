@@ -94,7 +94,7 @@
 .mod-open-btn {
   border: none;
   background-color: transparent;
-  color: none;
+
   fill: rgba(255, 255, 255, 1);
   cursor: pointer;
 }
@@ -108,7 +108,7 @@
 .modal-open-btn {
   border: none;
   background-color: transparent;
-  color: none;
+
   fill: rgba(20, 20, 20, 1);
   cursor: pointer;
 }
