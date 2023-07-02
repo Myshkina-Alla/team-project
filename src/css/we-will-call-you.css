@@ -1,2 +1,210 @@
-.header {
+
+.will-call {
+  padding-bottom: 80px;
+}
+
+.tablet-description {
+  max-width: 335px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.recall-title {
+  font-weight: 500;
+  color: var(--text-color);
+  text-align: center;
+  text-shadow: 0px 4px 70px  rgba(0, 0, 0, 0.10);
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: -0.96px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+
+  max-width: 323px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.recall-description {
+  color: var(--text-color);
+  text-align: center;
+  text-shadow: 0px 4px 70px  rgba(0, 0, 0, 0.10);
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.56px;
+  margin-bottom: 40px;
+  font-weight: 400;
+  max-width: 321px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.recall-input {
+  margin-bottom: 40px;
+  position: relative;
+}
+.recall-label {
+  color: #c1bdbd;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.56px;
+  position: absolute;
+  top: 15px;
+  left: 24px;
+  transition: transform var(--transition);
+  font-weight: 400;
+}
+.recall-input-phone {
+  font-weight: 400;
+  width: 100%;
+  height: 48px;
+  color: var(--habanero-color);
+  border-radius: 100px;
+  border: 1px solid var(--text-color);
+  opacity: 0.30000001192092896;
+  padding-left: 24px;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.56px;
+  transition: border-color var(--transition);
+}
+.recall-input-phone:hover,
+.recall-input-phone:focus {
+  border-color: var(--picnic-color);
+}
+.recall-input-phone:focus + .recall-label {
+  transform: translateY(-40px);
+}
+
+.recall-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  border-radius: 100px;
+  background: var(--habanero-color);
+  color: var(--white-text-color);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.56px;
+  padding: 15px 35px;
+  border: none;
+  transition: background-color var(--transition);
+}
+.recall-button:hover,
+.recall-button:focus {
+  background-color: var(--picnic-color);
+}
+.recall-image {
+display: flex;
+justify-content: center;
+align-items: flex-end;
+border-radius: 40px;
+  max-width: 335px;
+  max-height: 388px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../images/we-will-call-you/mobile/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .recall-image {
+    background-image: url(../images/we-will-call-you/mobile/background@2x.png);
+  }
+}
+
+
+/* ================Tablet================ */
+
+@media screen and (min-width: 768px) {
+  .will-call {
+    padding-bottom: 173px;
+  }
+
+  .tablet-description {
+    max-width: 524px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .recall-title {
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: -1.6px;
+    max-width: 524px;
+  }
+  .recall-description {
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.72px;
+    max-width: 499px;
+  }
+  .recall-input {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+  }
+  .recall-image {
+    background-image: url(../images/we-will-call-you/tablet/background.png);
+    max-width: 704px;
+    max-height: 463px;
+    border-radius: 80px;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .recall-image {
+      background-image: url(../images/we-will-call-you/mobile/background@2x.png);
+    }
+  }
+}
+
+/* ================Desctop================ */
+
+@media screen and (min-width: 1280px) {
+  .will-call {
+    padding-bottom: 124px;
+  }
+  .recall {
+    display: flex;
+    gap: 77px;
+    align-items: center;
+  }
+  .tablet-description {
+    width: 614px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .recall-title {
+    font-size: 48px;
+    line-height: 1.04;
+    letter-spacing: -1.92px;
+    text-align: left;
+    margin-bottom: 40px;
+  }
+  .recall-description {
+    text-align: left;
+    width: 523px;
+    margin-bottom: 80px;
+    margin-left: 0;
+  }
+  .recall-input {
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+  .recall-image {
+    background-image: url(../images/we-will-call-you/desktop/background.png);
+    max-width: 525px;
+    min-height: 536px;
+   background-size: 100%;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .recall-image {
+      background-image: url(../images/we-will-call-you/desktop/background@2x.png);
+    }
+  }
 }

@@ -1,1 +1,56 @@
-<header class="header"></header>
+<section class="will-call">
+  <div class="recall container">
+    <div class="tablet-description">
+      <h2 class="recall-title">Fresh Harvest Box has got you covered</h2>
+      <p class="recall-description">
+        Our boxes are packed with delicious, nutritious vegetables, perfect for
+        anyone looking to eat healthier or support local farmers. Order your box
+        today and start enjoying the best that nature has to offer!
+      </p>
+      <div class="recall-input">
+        <form class="recall-form">
+          <input
+            type="tel"
+            id="user-phone"
+            class="recall-input-phone"
+            name="user-phone"
+            pattern="[\+]\d{3}\s[\(]\d{2}[\)]\d{7}"
+            required
+          />
+          <label class="recall-label" for="user-phone">+380 ()</label>
+          <button type="submit" class="recall-button">Recall</button>
+        </form>
+      </div>
+    </div>
+    <div class="recall-image">
+      <picture>
+        <source
+          srcset="
+            ../images/we-will-call-you/desktop/girl.png    1x,
+            ../images/we-will-call-you/desktop/girl@2x.png 2x
+          "
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="
+            ../images/we-will-call-you/tablet/girl.png    1x,
+            ../images/we-will-call-you/tablet/girl@2x.png 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            ../images/we-will-call-you/mobile/girl.png    1x,
+            ../images/we-will-call-you/mobile/girl@2x.png 2x
+          "
+          media="(max-width: 768px)"
+        />
+        <img
+          src="../images/we-will-call-you/tablet/girl.png"
+          alt="Girl with broccoli"
+          width="629"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
