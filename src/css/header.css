@@ -51,7 +51,7 @@
 }
 
 .mob-header-nav {
-  color: #fff;
+  color: var(--white-text-color);
   text-align: center;
   font-size: 14px;
   font-family: DM Sans;
@@ -65,8 +65,7 @@
   z-index: 100;
   width: 100%;
   height: 100%;
-
-  background-color: #a1c487;
+  background-color: var(--picnic-color);
   text-align: center;
   padding-top: 124px;
   display: flex;
@@ -88,7 +87,7 @@
 
 .link:hover,
 .link:focus {
-  color: rgba(252, 138, 17, 1);
+  color: var(--habanero-color);
   transition-duration: 300ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -101,12 +100,12 @@
   border: none;
   background-color: transparent;
 
-  fill: rgba(255, 255, 255, 1);
+  fill: var(--white-text-color);
   cursor: pointer;
 }
 .mod-open-btn:hover,
 .mod-open-btn:focus {
-  fill: rgba(252, 138, 17, 1);
+  fill: var(--habanero-color);
   transition-duration: 300ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -120,7 +119,7 @@
 }
 .modal-open-btn:hover,
 .modal-open-btn:focus {
-  fill: rgba(252, 138, 17, 1);
+  fill: var(--habanero-color);
   transition-duration: 300ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -130,19 +129,19 @@
   margin-right: 0;
   border: none;
   background-color: transparent;
-  fill: rgba(119, 172, 99, 1);
+  fill: var(--logo-color);
   cursor: pointer;
 }
 
 .menu-open-btn:hover,
 .menu-open-btn:focus {
-  fill: rgba(252, 138, 17, 1);
+  fill: var(--habanero-color);
   transition-duration: 300ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-icon {
-  fill: rgba(119, 172, 99, 1);
+  fill: var(--logo-color);
 }
 
 .mob-list-container {
