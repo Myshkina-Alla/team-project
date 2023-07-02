@@ -1,2 +1,109 @@
-.header {
+@import url(./global.css);
+@import url(./fonts.css);
+
+.vegatable {
+  background-color: var(--white-text-color);
+}
+.vegetable-container {
+}
+.vegetable-title {
+  text-align: center;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -1.6px;
+  text-transform: uppercase;
+  color: var(--text-color);
+  margin-bottom: 14px;
+}
+.vegetable-text {
+  text-align: center;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: -0.72px;
+  color: var(--text-color);
+  padding-bottom: 40px;
+  width: a;
+  justify-content: center;
+  margin: auto;
+  width: 562px;
+}
+.vegetable-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.vegetable-item {
+  width: 389px;
+  height: 465px;
+  border-radius: 20px;
+  background-color: var(--lime-color);
+}
+.vegetable-subtitle {
+  font-size: 32px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -1.28px;
+  color: var(--text-color);
+}
+.vegetable-desc {
+  font-size: 18px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: -0.36px;
+  color: var(--text-color);
+}
+.vegetable-img {
+}
+.vegetable-img:hover,
+.vegetable-img:focus {
+  transform: scale(1.15);
+  transition: var(--transition);
+}
+.vegetable-price {
+  font-size: 18px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: -0.72px;
+  color: var(--text-color);
+}
+.vegetable-button {
+  margin-left: 583px;
+  margin-right: 583px;
+  margin-top: 40px;
+  width: 114px;
+  height: 114px;
+  border-radius: 114px;
+  color: var(--white-text-color);
+  background-color: var(--habanero-color);
+  border: none;
+  transition: background-color var(--transition);
+  rotate: -15deg;
+}
+.vegetable-icon {
+  fill: var(--white-text-color);
+}
+.vegetable-button:hover {
+  background-color: var(--picnic-color);
+}
+
+/* Media */
+
+@media screen and (min-width: 375px) {
+}
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 1280px) {
 }
