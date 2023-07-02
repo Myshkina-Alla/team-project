@@ -30,6 +30,12 @@
   font-weight: 700;
 }
 
+.menu-icon {
+  position: relative;
+  top: 3px;
+  margin-right: 8px;
+}
+
 .header .logo {
   margin-top: 16px;
   margin-bottom: 16px;
