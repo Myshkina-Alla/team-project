@@ -1,6 +1,3 @@
-@import url(./global.css);
-@import url(./fonts.css);
-
 .vegatable {
   background-color: var(--white-text-color);
 }
@@ -29,19 +26,17 @@
   letter-spacing: -0.72px;
   color: var(--text-color);
   padding-bottom: 40px;
-  width: a;
   justify-content: center;
   margin: auto;
   width: 562px;
 }
+
 .vegetable-list {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
 }
 .vegetable-item {
-  width: 389px;
-  height: 465px;
   border-radius: 20px;
   background-color: var(--lime-color);
 }
@@ -53,6 +48,9 @@
   line-height: 1.2;
   letter-spacing: -1.28px;
   color: var(--text-color);
+  margin-left: 24px;
+  margin-top: 64px;
+  margin-bottom: 7px;
 }
 .vegetable-desc {
   font-size: 18px;
@@ -62,8 +60,12 @@
   line-height: 1.3;
   letter-spacing: -0.36px;
   color: var(--text-color);
+  margin-left: 24px;
 }
 .vegetable-img {
+  width: 321px;
+  height: 261px;
+  margin: auto;
 }
 .vegetable-img:hover,
 .vegetable-img:focus {
@@ -78,7 +80,10 @@
   line-height: 1.3;
   letter-spacing: -0.72px;
   color: var(--text-color);
+  margin-left: 24px;
+  margin-top: 28px;
 }
+
 .vegetable-button {
   margin-left: 583px;
   margin-right: 583px;
@@ -90,7 +95,6 @@
   background-color: var(--habanero-color);
   border: none;
   transition: background-color var(--transition);
-  rotate: -15deg;
 }
 .vegetable-icon {
   fill: var(--white-text-color);
@@ -102,8 +106,20 @@
 /* Media */
 
 @media screen and (min-width: 375px) {
+  .vegetable-item {
+    width: 335px;
+    height: 443px;
+  }
 }
 @media screen and (min-width: 768px) {
+  .vegetable-item {
+    width: 342px;
+    height: 465px;
+  }
 }
 @media screen and (min-width: 1280px) {
+  .vegetable-item {
+    width: 389px;
+    height: 465px;
+  }
 }
