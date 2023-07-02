@@ -30,12 +30,6 @@
   font-weight: 700;
 }
 
-.menu-icon {
-  position: relative;
-  top: 3px;
-  margin-right: 8px;
-}
-
 .header .logo {
   margin-top: 16px;
   margin-bottom: 16px;
@@ -140,7 +134,10 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu-icon {
+.logo-icon {
+  position: relative;
+  top: 3px;
+  margin-right: 8px;
   fill: var(--logo-color);
 }
 
