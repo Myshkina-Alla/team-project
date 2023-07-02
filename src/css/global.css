@@ -6,6 +6,7 @@
   margin-right: auto;
   min-width: 320px;
   padding-left: 20px;
+  
   padding-right: 20px;
 
 }
@@ -22,9 +23,9 @@
       
        .container {
   width: 768px; 
-    
+  margin-right: auto;  
  margin-left: auto;
- margin-right: auto;
+ 
  padding-left: 32px;
  padding-right: 32px;
       
