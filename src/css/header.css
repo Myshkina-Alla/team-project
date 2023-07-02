@@ -114,7 +114,7 @@
   border: none;
   background-color: transparent;
 
-  fill: rgba(20, 20, 20, 1);
+  fill: var(--text-color);
   cursor: pointer;
 }
 .modal-open-btn:hover,
