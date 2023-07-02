@@ -136,6 +136,12 @@
   line-height: 1.2;
   letter-spacing: -0.4px;
   text-transform: uppercase;
+
+  transition: border-color var(--transition);
+}
+
+.hero__buttons-item:hover > button {
+  border-color: var(--lime-color);
 }
 
 .hero__buttons-item > .hero__btn-active {
