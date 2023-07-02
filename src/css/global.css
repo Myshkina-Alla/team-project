@@ -61,6 +61,10 @@
   padding-left: 20px;
   padding-right: 20px;
 }
+/* цей контейнер викор для hero , footer, mobil menu для беграндних колярів разом з containergit  */
+.containerFullwidth{
+    width: 100%;
+}
 /* nh */
 
 @media screen and (min-width: 375px) {
