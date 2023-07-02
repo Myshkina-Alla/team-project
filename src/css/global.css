@@ -1,4 +1,50 @@
-.header {
-    color: brown;
-    padding: 0cap;
+/*================================ mobail container============================= */
+
+.container {
+
+   margin-left: auto;
+  margin-right: auto;
+  min-width: 320px;
+  padding-left: 20px;
+  
+  padding-right: 20px;
+
+}
+/* nh */
+
+@media screen and (min-width: 375px) {
+
+}
+
+
+/* ================================tablet===================== */
+
+@media screen and (min-width: 768px) {
+      
+       .container {
+  width: 768px; 
+  margin-right: auto;  
+ margin-left: auto;
+ 
+ padding-left: 32px;
+ padding-right: 32px;
+      
+   
+}
+}
+
+/* ================================desctop===================== */
+
+@media screen and (min-width: 1280px){
+    .container {
+      
+  width: 100%;  
+  max-width: 1280px;
+ margin-left: auto;
+ margin-right: auto;
+ padding-left: 32px;
+ padding-right: 32px;
+      
+   
+}
 }
