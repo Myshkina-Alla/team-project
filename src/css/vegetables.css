@@ -33,8 +33,6 @@
 .vegetable-item {
   border-radius: 20px;
   background-color: var(--lime-color);
-  width: 389px;
-  height: 465px;
 }
 .vegetable-subtitle {
   font-size: 32px;
