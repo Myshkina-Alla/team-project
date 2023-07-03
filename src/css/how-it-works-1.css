@@ -1,7 +1,6 @@
 
 .howitworks-title {
     color: var(--text-color);
-    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
     font-size: 28px;
     font-family: DM Sans;
     font-style: normal;
@@ -17,11 +16,9 @@
 
 .howitworks-picture {
     color: var(--text-color);
-    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
     font-family: DM Sans;
     font-style: normal;
     font-weight: 400;
-    /*line-height: 18px;*/
     letter-spacing: -0.56px;
     margin: 20px 0px;
 }
@@ -42,7 +39,6 @@
     flex-direction: column;
     justify-content: center;
     color: var(--text-color);
-    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
     font-family: DM Sans;
     font-style: normal;
     font-weight: 400;
@@ -75,7 +71,6 @@
         font-size: 18px;
         margin-top: 20px;
         color: var(--text-color);
-        text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
         font-family: DM Sans;
         font-style: normal;
         font-weight: 400;
@@ -99,7 +94,6 @@
         line-height: 1.1;
         margin-right: 8px;
         color: var(--text-color);
-        text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
         font-family: DM Sans;
         font-style: normal;
         font-weight: 500;
@@ -121,7 +115,6 @@
         flex-direction: column;
         justify-content: center;
         color: var(--text-color);
-        text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
         font-size: 48px;
         font-family: DM Sans;
         font-style: normal;
@@ -140,7 +133,6 @@
 
     .ul-howitworks {
         color: var(--text-color);
-        text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
         font-size: 18px;
         font-family: DM Sans;
         font-style: normal;
