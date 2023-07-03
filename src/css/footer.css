@@ -10,13 +10,25 @@
 
 .footer-wrap {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 
     gap: 40px;
 }
+
 /* Логотип */
-.footer-logo-name {
+.footer-wrap-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-logo-link {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+    /* position: absolute; */
     color: var(--text-color);
     font-size: 14px;
     font-weight: 700;
@@ -25,6 +37,14 @@
     
     text-transform: uppercase;
 }
+.footer-logo-icon {
+    display: block;
+    position: relative;
+    /* top: 3px; */
+    margin-right: 8px;
+    fill: var(--text-color);
+}
+
 /* Навигация/ссылки на секции */
 
 .navigation-list {
@@ -49,7 +69,13 @@
 .navigation-link:active {
     color: var(--habanero-color);
 }
+
+
 /* Иконки соц.сетей */
+.footer-wrap-contact {
+    display: block;
+}
+
 .footer-media-list {
     display: flex;
     justify-content: center;
@@ -84,15 +110,33 @@
 .footer-media-icon {
     width: 24px;
     height: 24px;
+
     fill: currentColor;
 }
 /* Телефонный номер */
-.tel-link {
+.footer-tel-link {
     margin-bottom: 20px;
+
+    color: var(--text-color);
+
+    text-align: center;
+    font-style: normal;
+    font-size: 14px;
+    font-family: DM Sans;
+    font-weight: 400;
+    line-height: 1.2;
 }
 /* Адрес */
-.address-text {
+.footer-address-text {
     max-width: 135px;
+
+    text-align: center;
+    font-style: normal;
+    font-size: 14px;
+    font-family: DM Sans;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: -0.28px;
 }
 
 @media screen and (min-width: 375px) {
@@ -101,7 +145,13 @@
 
 @media screen and (min-width: 768px) {
     .footer {
-        padding: 80px 32px;
+        display: block;
+    }
+    .footer-wrap {
+        align-items: center;
+    }
+    .footer-wrap-nav {
+        display: flex;
     }
     .footer-media-link {
         width: 44px;
@@ -111,8 +161,17 @@
         width: 28px;
         height: 28px;
     }
+    .footer-address-text {
+        text-align: start;
+    }
 }
 
 @media screen and (min-width: 1280px) {
-
+    .footer {
+        display: block;
+        }
+    
+    .footer-wrap {
+        align-items: center;
+    }
 }

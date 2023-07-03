@@ -1,12 +1,16 @@
-<br class="footer">
-    <br class="conteiner footer-wrap">
+<footer class="footer">
+    <div class="container footer-wrap">
         <div class="footer-wrap-logo">
-            <img src="./src/images/footer/mob-footer.png" alt="">
-            <a href="">
+            <picture>
+                <source srcset="./images/footer/footer.png 1x, ./images/footer/footer@2x.png 2x " media="(min-width:768px px)">
+                <source srcset="./images/footer/mob-footer.png 1x, ./images/footer/mob-footer@2x.png 2x" media="(min-width:320px)">
+            </picture>
+            <img src="./images/footer/mob-footer.png" alt="broccoli" width="335">
+            <a href="" class="footer-logo-link link">
                 <svg class="footer-logo-icon" width="16" height="16">
-                    <use href="/src/images/icons.svg#Vector"></use>
+                    <use href="./images/icons.svg#logo"></use>
                 </svg>
-                <span class="footer-logo-name">Veggieboost</span>
+                Veggieboost  
             </a>
         </div>
         <div class="footer-wrap-nav">
@@ -18,11 +22,11 @@
                     <a href="./vegetables.html" class="navigation-link link">Vegetables</a>
                 </li>
                 <li class="navigation-item">
-                    <a href="" class="navigation-link link">Contacts</a>
+                    <a href="#" class="navigation-link link">Contacts</a>
                 </li>
             </ul>
         </div>
-        <br class="footer-wrap-contact">
+        <div class="footer-wrap-contact">
             <ul class="footer-media-list list">
                 <li class="footer-media-item">
                     <a href="" class="footer-media-link link">
@@ -46,8 +50,10 @@
                     </a>
                 </li>
             </ul>
-            <a href="tel:+380684439426" class="tel-link link">+380 (68) 443-94-26</a>
-            <p class="address-text">1678 S. Pioneer Road</br> Salt Lake City</br> UT 84104</p>
+            <address class="footer-address">
+                <a href="tel:+380684439426" class="footer-tel-link link">+380 (68) 443-94-26</a>
+                <p class="footer-address-text">1678 S. Pioneer Road</br> Salt Lake City</br> UT 84104</p>
+            </address>
         </div>
     </div>
 </footer>
