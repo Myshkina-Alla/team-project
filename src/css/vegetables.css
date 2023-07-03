@@ -39,6 +39,8 @@
 .vegetable-item {
   border-radius: 20px;
   background-color: var(--lime-color);
+  width: 389px;
+  height: 465px;
 }
 .vegetable-subtitle {
   font-size: 32px;
@@ -106,20 +108,62 @@
 /* Media */
 
 @media screen and (min-width: 375px) {
+  .vegetable-title {
+  }
+  .vegetable-text {
+  }
+  .vegetable-list {
+  }
   .vegetable-item {
-    width: 335px;
-    height: 443px;
+  }
+  .vegetable-subtitle {
+  }
+  .vegetable-desc {
+  }
+  .vegetable-img {
+  }
+  .vegetable-price {
+  }
+  .vegetable-button {
   }
 }
 @media screen and (min-width: 768px) {
+  .vegetable-title {
+  }
+  .vegetable-text {
+  }
+  .vegetable-list {
+  }
   .vegetable-item {
-    width: 342px;
-    height: 465px;
+  }
+  .vegetable-subtitle {
+  }
+  .vegetable-desc {
+  }
+  .vegetable-img {
+  }
+  .vegetable-price {
+  }
+  .vegetable-button {
   }
 }
 @media screen and (min-width: 1280px) {
+  .vegetable-title {
+  }
+  .vegetable-text {
+  }
+  .vegetable-list {
+  }
   .vegetable-item {
-    width: 389px;
-    height: 465px;
+  }
+  .vegetable-subtitle {
+  }
+  .vegetable-desc {
+  }
+  .vegetable-img {
+  }
+  .vegetable-price {
+  }
+  .vegetable-button {
   }
 }
