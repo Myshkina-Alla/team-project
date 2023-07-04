@@ -92,6 +92,9 @@
   letter-spacing: -0.56px;
 }
 .vegetable-list {
+  max-width: 335px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -165,6 +168,7 @@
     letter-spacing: -0.72px;
   }
   .vegetable-list {
+    max-width: 704px;
     margin-bottom: 40px;
     flex-direction: row;
   }
@@ -217,6 +221,7 @@
     letter-spacing: -0.72px;
   }
   .vegetable-list {
+    max-width: 1215px;
     gap: 24px;
   }
   .vegetable-item {
