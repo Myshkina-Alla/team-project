@@ -9,6 +9,7 @@
 .steps-container {}
 
 .steps-title {
+    color: var(--text-color);
     font-style: normal;
     text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
     font-size: 24px;
@@ -17,7 +18,6 @@
     line-height: 1.16;
     letter-spacing: -0.96px;
     text-transform: uppercase;
-    color: var(--text-color);
 }
 
 .steps-list {}
