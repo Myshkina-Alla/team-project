@@ -161,7 +161,7 @@
     align-items: center;
   }
   .tablet-description {
-    width: 614px;
+    min-width: 614px;
     margin-left: 0;
     margin-right: 0;
   }
@@ -171,10 +171,11 @@
     letter-spacing: -1.92px;
     text-align: left;
     margin-bottom: 40px;
+    min-width: 614px;
   }
   .recall-description {
     text-align: left;
-    width: 523px;
+    min-width: 523px;
     margin-bottom: 80px;
     margin-left: 0;
   }
