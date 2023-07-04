@@ -99,11 +99,6 @@
   transition: background-color var(--transition), color var(--transition);
 }
 
-.hero__btn:hover {
-  background-color: var(--lime-color);
-  color: var(--picnic-color);
-}
-
 .hero__image-main {
   margin-bottom: 16px;
 }
@@ -137,10 +132,6 @@
   text-transform: uppercase;
 
   transition: border-color var(--transition);
-}
-
-.hero__btn-category:hover {
-  border-color: var(--lime-color);
 }
 
 .hero__buttons-item > .hero__btn-active {
@@ -259,5 +250,14 @@
   .hero__btn-category {
     width: 125px;
     height: 38px;
+  }
+
+  .hero__btn-category:hover {
+    border-color: var(--lime-color);
+  }
+
+  .hero__btn:hover {
+    background-color: var(--lime-color);
+    color: var(--picnic-color);
   }
 }
