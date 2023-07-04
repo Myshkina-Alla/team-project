@@ -1,5 +1,5 @@
 .steps {
-    max-width: 335px;
+    max-width: 320px;
     margin-left: auto;
     margin-right: auto;
     background-color: var(--milk-mustache-color);
@@ -20,6 +20,16 @@
 .steps-wrap-text {
 
 }
+
+.steps-list {
+
+}
+
+.steps-item {
+    display: flex;
+    align-items: center;
+}
+        
 
 .steps-title {
     display: flex;
@@ -48,51 +58,28 @@
     padding-left: 0;
 }
 
-.steps-list li {
-    position: relative;
-    padding-left: 14px;
-    /* Отступ слева для текста пункта списка */        margin-bottom: 10px;
-        /* Отступ между пунктами списка */
-    /* line-height: 1.5; */
-}
-
-.steps-list li::before {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    width: 40px; 
-    height: 38px;
-    background-color: var(--picnic-color); 
-    border-radius: 50%; 
-}
-
-.steps-list li span {
-    display: inline-block;
-    position: relative;
-    top: -1px;
-}
-/* .steps-item {
-    align-items: center;
-    max-width: 176px;
-
-    display: flex;
-} */
-
 .steps-number {
     background-color: var(--picnic-color);
     padding: 10px 17px;
     border-radius: 200px;
+    width: 40px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; */
+
+
     /* margin-left: 20px;
     margin-right: 14px; */
     /* display: flex; */
-    position: absolute;
+    
     /* left: 34px; */
     /* align-items: center; */
-
-  
-
 
 }
 
@@ -106,6 +93,14 @@
     line-height: 1.28;
     letter-spacing: -0.56px;
     margin-left: 14px;
+
+    width: 176px;
+
+    /* display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0; */
 }
 
 .steps-picture {}
@@ -123,3 +118,38 @@
 /*===media-768px===*/
 
 /*===media-1200px===*/
+
+
+
+
+
+/* .steps-list li {
+    position: relative;
+    padding-left: 14px;
+   
+
+} */
+
+/* .steps-list li::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 40px; 
+    height: 38px;
+    background-color: var(--picnic-color); 
+    border-radius: 50%; 
+} */
+
+/* .steps-list li span {
+    display: inline-block;
+    position: relative;
+    top: -1px;
+} */
+/* .steps-item {
+    align-items: center;
+    max-width: 176px;
+
+    display: flex;
+} */
