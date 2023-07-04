@@ -41,9 +41,11 @@
   line-height: 1;
   letter-spacing: -0.56px;
   text-transform: uppercase;
+  text-shadow: rgba(0, 0, 0, 0.1) 0px 4px 70px;
 }
 
 .hero__review-descr {
+  text-shadow: rgba(0, 0, 0, 0.1) 0px 4px 70px;
   color: var(--text-color);
   font-size: 8px;
   line-height: 1.25;
@@ -59,10 +61,12 @@
   text-transform: uppercase;
   max-width: 335px;
   margin-bottom: 14px;
+  text-shadow: rgba(0, 0, 0, 0.1) 0px 4px 70px;
 }
 
 .hero__header > span {
   font-style: italic;
+  color: var(--lime-color);
 }
 
 .hero__descr {
@@ -71,6 +75,7 @@
   line-height: 1.28;
   letter-spacing: -0.56px;
   margin-bottom: 20px;
+  text-shadow: rgba(0, 0, 0, 0.1) 0px 4px 70px;
 }
 
 .hero__btn {
@@ -123,6 +128,7 @@
   justify-content: center;
   align-items: center;
   color: #ffffff;
+  text-shadow: rgba(0, 0, 0, 0.1) 0px 4px 70px;
 
   font-size: 10px;
   font-weight: 500;
@@ -210,6 +216,10 @@
   .hero {
     padding-top: 134px;
     padding-bottom: 32px;
+  }
+
+  .hero__main {
+    margin-bottom: 0;
   }
 
   .hero__review-item {
