@@ -146,6 +146,9 @@
   height: 80px;
   border-radius: 80px;
 }
+.vegetable-text-btn {
+  font-size: 14px;
+}
 .vegetable-text-btn @media screen and (min-width: 375px) {
   /* .container {
     max-width: 320px;
@@ -200,6 +203,9 @@
   .vegetable-button {
   }
 }
+.vegetable-text-btn {
+  font-size: 14px;
+}
 @media screen and (min-width: 1280px) {
   .vegetable-container {
     padding-bottom: 122px;
@@ -244,6 +250,9 @@
     width: 114px;
     height: 114px;
     border-radius: 114px;
+  }
+  .vegetable-text-btn {
+    font-size: 18px;
   }
   .redish-img {
     display: block;
