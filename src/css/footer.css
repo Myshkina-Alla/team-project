@@ -68,11 +68,11 @@
     transition: color var(--transition);
 }
 
-.navigation-link:hover,
+/* .navigation-link:hover,
 .navigation-link:focus,
 .navigation-link:active {
     color: var(--habanero-color);
-}
+} */
 
 
 /* Иконки соц.сетей */
@@ -106,11 +106,11 @@
             color var(--transition);
 }
 
-.footer-media-link:hover,
+/* .footer-media-link:hover,
 .footer-media-link:focus {
     border-color: var(--picnic-color);
     color: var(--picnic-color);
-}
+} */
 .footer-media-icon {
     width: 24px;
     height: 24px;
@@ -208,5 +208,16 @@
         display: flex;
         flex-direction: row;
         gap: 166px;
+    }
+
+    .navigation-link:hover,
+    .navigation-link:focus,
+    .navigation-link:active {
+        color: var(--habanero-color);
+    }
+    .footer-media-link:hover,
+    .footer-media-link:focus {
+        border-color: var(--picnic-color);
+        color: var(--picnic-color);
     }
 }
