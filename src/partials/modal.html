@@ -1,111 +1,134 @@
-<div class="backdrop">
-    <div class="modal">
-       
-        <button type="button" class="close-modal-button">
-            <svg class="close-modal-icon" width="24" height="24">
-              <use href="./images/icons.svg#close"></use>
-            </svg>
-          </button>
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <button type="button" class="close-modal-button">
+      <svg class="close-modal-icon" width="24" height="24">
+        <use href="./images/icons.svg#close"></use>
+      </svg>
+    </button>
 
-        <h2 class="modal-title">Your Order</h2>
-       
-        <ul class="product-list">
-            
-            <li class="product-item cabbage-item">
-                <label for="cabbage">
-               <div class="card-wrapper">
-                <h3 class="card-title">Cabbage Basket</h3>
+    <h2 class="modal-title">Your Order</h2>
+
+    <ul class="product-list">
+      <li class="product-item cabbage-item">
+        <label for="cabbage">
+          <div class="card-wrapper">
+            <h3 class="card-title">Cabbage Basket</h3>
             <p class="card-text">Plant</p>
             <input
-            class="checkbox visually-hidden"
-            type="checkbox"
-            id="cabbage"
-            value="true"
-            name="Cabbage Basket"
-          />
+              class="checkbox visually-hidden"
+              type="checkbox"
+              id="cabbage"
+              value="true"
+              name="Cabbage Basket"
+            />
 
-          <span class="checkbox-custom-field">
-            <svg class="checkbox-icon">
-              <use href="./images/icons.svg#pick"></use>
-            </svg>
-          </span>
-        </div>
+            <span class="checkbox-custom-field">
+              <svg class="checkbox-icon">
+                <use href="./images/icons.svg#pick"></use>
+              </svg>
+            </span>
+          </div>
         </label>
- </li>
+      </li>
 
-            <li class="product-item tomato-item">
-                <label for="tomato">
-                    <div class="card-wrapper">
-                <h3 class="card-title">Tomato Basket</h3>
+      <li class="product-item tomato-item">
+        <label for="tomato">
+          <div class="card-wrapper">
+            <h3 class="card-title">Tomato Basket</h3>
             <p class="card-text">Plant</p>
             <input
-            class="checkbox visually-hidden"
-            type="checkbox"
-            id="tomato"
-            value="true"
-            name="Tomato Basket"
-          />
-          <span class="checkbox-custom-field">
-            <svg class="checkbox-icon">
-              <use href="./images/icons.svg#pick"></use>
-            </svg>
-          </span>
-        </div></label>
-        </li>
+              class="checkbox visually-hidden"
+              type="checkbox"
+              id="tomato"
+              value="true"
+              name="Tomato Basket"
+            />
+            <span class="checkbox-custom-field">
+              <svg class="checkbox-icon">
+                <use href="./images/icons.svg#pick"></use>
+              </svg>
+            </span></div
+        ></label>
+      </li>
 
-            <li class="product-item vegetables-item">
-                <label for="vegetables">
-                    <div class="card-wrapper">
-
+      <li class="product-item vegetables-item">
+        <label for="vegetables">
+          <div class="card-wrapper">
             <h3 class="card-title">Vegetables Basket</h3>
             <p class="card-text">Plant</p>
             <input
-            class="checkbox visually-hidden"
-            type="checkbox"
-            id="vegetables"
-            value="true"
-            name="Vegetables Basket"
-          />
-          <span class="checkbox-custom-field">
-            <svg class="checkbox-icon">
-              <use href="./images/icons.svg#pick"></use>
-            </svg>
-          </span>
-        </div>
+              class="checkbox visually-hidden"
+              type="checkbox"
+              id="vegetables"
+              value="true"
+              name="Vegetables Basket"
+            />
+            <span class="checkbox-custom-field">
+              <svg class="checkbox-icon">
+                <use href="./images/icons.svg#pick"></use>
+              </svg>
+            </span>
+          </div>
         </label>
-        </li>
-        </ul>
+      </li>
+    </ul>
 
-        <form class="form">
+    <form class="form">
+      <label
+        ><input
+          class="input-field"
+          type="text"
+          name="name"
+          minlength="2"
+          required
+          pattern="^[a-zA-Z]+\s[a-zA-Z]+$"
+          placeholder="Enter full name..."
+      /></label>
+      <label
+        ><input
+          class="input-field"
+          type="email"
+          name="email"
+          required
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+          placeholder="Enter email..."
+      /></label>
+      <label
+        ><input
+          class="input-field"
+          type="text"
+          name="card"
+          required
+          maxlength="19"
+          pattern="[0-9]{13,19}"
+          placeholder="Enter card..."
+      /></label>
+      <label>
+        <textarea
+          class="comment"
+          name="comment"
+          placeholder="Enter comments..."
+        ></textarea>
+      </label>
+    </form>
 
-        <label><input class="input-field" type="text" name="name" minlength="2" required pattern="^[a-zA-Z]+\s[a-zA-Z]+$" placeholder="Enter full name..."/></label>
-        <label><input class="input-field" type="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Enter email..."/></label>
-        <label><input class="input-field" type="text" name="card" required maxlength="19" pattern="[0-9]{13,19}" placeholder="Enter card..."/></label>
-        <label><textarea class="comment" name="comment" placeholder="Enter comments..."></textarea></label>
-       
-        </form>
-       
-        <button class="submit-button" type="submit">Submit</button>
-    
-        <picture
-        class="modal-picture">
-                <source
-                srcset="
-                ./images/modal/desktop/girl@2x.png 2x,
-                ./images/modal/desktop/girl.png 1x
-                " 
-                media="(min-width: 1280px)"/>
-                <source
-                srcset="
-                ./images/modal/tablet/girl@2x.png 2x,
-                ./images/modal/tablet/img.png 1x
-                " 
-                media="(min-width: 768px)"/>
+    <button class="submit-button" type="submit">Submit</button>
 
-              <img
-                src="./images/modal/desktop/girl.png"
-                alt="a girl with a vegetable"
-            /></picture>
+    <picture class="modal-picture">
+      <source
+        srcset="
+          ./images/modal/desktop/girl@2x.png 2x,
+          ./images/modal/desktop/girl.png    1x
+        "
+        media="(min-width: 1280px)" />
+      <source
+        srcset="
+          ./images/modal/tablet/girl@2x.png 2x,
+          ./images/modal/tablet/img.png     1x
+        "
+        media="(min-width: 768px)" />
 
-    </div>
+      <img src="./images/modal/desktop/girl.png" alt="a girl with a vegetable"
+    /></picture>
+  </div>
 </div>
