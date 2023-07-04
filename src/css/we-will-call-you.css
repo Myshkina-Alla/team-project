@@ -48,16 +48,19 @@
   border-radius: 100px;
   border: 1px solid var(--text-color);
   opacity: 0.30000001192092896;
+  outline: transparent;
   padding-left: 24px;
   font-size: 16px;
   line-height: 1.28;
   letter-spacing: -0.56px;
-  transition: opacity var(--transition);
+  transition: opacity var(--transition),
+   border var(--transition);
 }
 
 .recall-input-phone:hover,
 .recall-input-phone:focus {
   opacity: 0.4;
+  border: 2px solid var(--text-color);
 }
 
 .recall-button {
