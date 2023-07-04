@@ -25,12 +25,6 @@
   margin: auto;
 }
 
-/* .vegetable-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-  margin-bottom: 42px;
-} */
 .vegetable-item {
   border-radius: 20px;
   background-color: var(--lime-color);
