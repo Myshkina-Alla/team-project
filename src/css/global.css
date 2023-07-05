@@ -46,6 +46,17 @@
   button {
     cursor: pointer;
   }
+
+  body {
+    font-family: "dm sans" , "sans-serif";
+  }
+  .list {
+    list-style: none;
+  }
+  .link {
+    text-decoration: none;
+  }
+  
   /**
     |============================
     | Container
@@ -60,6 +71,10 @@
   min-width: 320px;
   padding-left: 20px;
   padding-right: 20px;
+}
+/* цей контейнер викор для hero , footer, mobil menu для беграндних колярів разом з containergit  */
+.containerFullwidth{
+    width: 100%;
 }
 /* nh */
 
@@ -92,3 +107,9 @@
  padding-right: 32px;   
 }
 }
+
+
+
+
+ 
+
