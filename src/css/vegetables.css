@@ -5,7 +5,7 @@
 }
 .vegetable-title {
   text-align: center;
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   font-style: normal;
   font-weight: 500;
   color: var(--text-color);
@@ -15,7 +15,7 @@
 }
 .vegetable-text {
   text-align: center;
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   font-family: DM Sans;
   font-style: normal;
   font-weight: 400;
@@ -66,7 +66,8 @@
 }
 .vegetable-icon {
   fill: var(--white-text-color);
-  rotate: 15deg;
+  transform: rotate(15deg);
+  /* rotate: 15deg; */
 }
 .vegetable-button:hover {
   background-color: var(--picnic-color);
@@ -76,7 +77,8 @@
 .vegetable-icn-btn {
   display: block;
   gap: 4px;
-  rotate: -15deg;
+  transform: rotate(-15deg);
+  /* rotate: -15deg; */
 }
 
 /* Media */
