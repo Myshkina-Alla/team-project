@@ -1,2 +1,154 @@
-.header {
+
+.howitworks-title {
+    color: var(--text-color);
+    font-size: 28px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -1.12px;
+    text-transform: uppercase;
+    display: flex;
+    max-width: 335px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.howitworks-picture {
+    color: var(--text-color);
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.56px;
+    margin: 20px 0px;
+}
+
+
+.howitworks-first {
+    max-width: 335px;
+}
+
+.howitworks-second {
+    max-width: 335px;
+}
+
+.ul-howitworks {
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--text-color);
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.28;
+    letter-spacing: -0.56px;
+}
+
+.howitworks-div {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media screen and (min-width: 768px) {
+    
+    .howitworks-div {
+        flex-direction: row;
+        flex-wrap: wrap;
+        display: flex;
+    }
+
+    .ul-howitworks {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-shrink: 0;
+        font-size: 18px;
+        margin-top: 20px;
+        color: var(--text-color);
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.33;
+        letter-spacing: -0.72px;
+    }
+
+    .howitworks-first {
+        max-width: 317px;
+        height: 96px;
+    }
+
+    .howitworks-second {
+        max-width: 279px;
+        height: 72px;
+    }
+
+    .howitworks-title {
+        font-size: 40px;
+        max-width: 386px;
+        line-height: 1.1;
+        margin-right: 8px;
+        color: var(--text-color);
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: 500;
+        letter-spacing: -1.6px;
+        text-transform: uppercase;
+    }
+
+    .howitworks-picture {
+        width: 310px;
+        height: 176px;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    
+    .howitworks-title {
+        display: flex;
+        max-width: 614px;
+        flex-direction: column;
+        justify-content: center;
+        color: var(--text-color);
+        font-size: 48px;
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.04;
+        letter-spacing: -1.92px;
+        text-transform: uppercase;
+        margin: 0px;
+    }
+
+    .howitworks-picture {
+        margin-left: 192px;
+        width: 410px;
+        height: 170px;
+    }
+
+    .ul-howitworks {
+        color: var(--text-color);
+        font-size: 18px;
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.33;
+        letter-spacing: -0.72px;
+        gap: 40px;
+    }
+
+    .howitworks-first {
+        max-width: 352px;
+        height: 96px;
+    }
+
+    .howitworks-second {
+        max-width: 294px;
+        height: 72px;
+    }
 }
