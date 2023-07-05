@@ -46,6 +46,17 @@
   button {
     cursor: pointer;
   }
+
+  body {
+    font-family: "dm sans" , "sans-serif";
+  }
+  .list {
+    list-style: none;
+  }
+  .link {
+    text-decoration: none;
+  }
+  
   /**
     |============================
     | Container
@@ -96,3 +107,9 @@
  padding-right: 32px;   
 }
 }
+
+
+
+
+ 
+
