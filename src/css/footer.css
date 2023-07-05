@@ -4,9 +4,11 @@
   padding: 80px 0;
   background-color: var(--lime-color);
 }
-.link {
-  text-decoration: none;
-}
+
+/* .link {
+    text-decoration: none;
+} */
+
 
 .footer-wrap {
   display: flex;
@@ -67,12 +69,6 @@
   transition: color var(--transition);
 }
 
-/* .navigation-link:hover,
-.navigation-link:focus,
-.navigation-link:active {
-    color: var(--habanero-color);
-} */
-
 /* Иконки соц.сетей */
 .footer-wrap-contact {
   display: block;
@@ -103,11 +99,6 @@
   transition: border-color var(--transition), color var(--transition);
 }
 
-/* .footer-media-link:hover,
-.footer-media-link:focus {
-    border-color: var(--picnic-color);
-    color: var(--picnic-color);
-} */
 .footer-media-icon {
   width: 24px;
   height: 24px;
@@ -137,16 +128,22 @@
 }
 /* Адрес */
 .footer-address-text {
-  text-align: center;
-  font-style: normal;
-  font-size: 14px;
-  font-family: 'DM Sans';
-  font-weight: 400;
-  line-height: 1.2;
-  letter-spacing: -0.28px;
+
+    display: block;
+
+    text-align: center;
+    font-style: normal;
+    font-size: 14px;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: -0.28px;
+
+    color: var(--text-color);
 }
 
 @media screen and (min-width: 375px) {
+
 }
 
 @media screen and (min-width: 768px) {
