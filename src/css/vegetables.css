@@ -74,6 +74,7 @@
 .vegetable-text-btn {
 }
 .vegetable-icn-btn {
+  display: block;
   gap: 4px;
   rotate: -15deg;
 }
