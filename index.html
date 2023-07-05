@@ -10,8 +10,8 @@
     integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   
-  <script type="module" crossorigin src="/team-project/assets/index-08977b64.js"></script>
-  <link rel="stylesheet" href="/team-project/assets/index-19a25a59.css">
+  <script type="module" crossorigin src="/team-project/assets/index-be251320.js"></script>
+  <link rel="stylesheet" href="/team-project/assets/index-0073d8a0.css">
 </head>
 
 <body>
@@ -567,6 +567,7 @@
     <h2 class="modal-title">Your Order</h2>
 
     <ul class="product-list">
+
       <li class="product-item cabbage-item">
         <label for="cabbage">
           <div class="card-wrapper">
@@ -599,12 +600,11 @@
       </li>
 
       <li class="product-item vegetables-item">
-        <label for="vegetables">
+        <label for="vegetable">
           <div class="card-wrapper">
             <h3 class="card-title">Vegetables Basket</h3>
             <p class="card-text">Plant</p>
-            <input class="checkbox visually-hidden" type="checkbox" id="vegetables" value="true"
-              name="Vegetables Basket" />
+            <input class="checkbox visually-hidden" type="checkbox" id="vegetable" value="true" name="Vegetables Basket" />
             <span class="checkbox-custom-field">
               <svg class="checkbox-icon">
                 <use href="/team-project/assets/icons-b031e60f.svg#pick"></use>
@@ -613,6 +613,7 @@
           </div>
         </label>
       </li>
+      </li>
     </ul>
 
     <form class="form">
@@ -620,17 +621,23 @@
           placeholder="Enter full name..." /></label>
       <label><input class="input-field" type="email" name="email" required
           pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Enter email..." /></label>
-      <label><input class="input-field" type="text" name="card" required maxlength="19" pattern="[0-9]{13,19}"
+      <label><input class="input-field" type="text" name="card" required maxlength="19" pattern="\d{4}\s\d{4}\s\d{4}\s\d{4}"
           placeholder="Enter card..." /></label>
       <label>
         <textarea class="comment" name="comment" placeholder="Enter comments..."></textarea>
       </label>
+
+      <button class="submit-button" type="submit">Submit</button>
+
     </form>
 
-    <button class="submit-button" type="submit">Submit</button>
-
     <picture class="modal-picture">
+      <source srcset="/team-project/assets/girl@2x-0c597019.webp 2x, /team-project/assets/girl-2f9d2b5e.webp 1x" media="(min-width: 1280px)" />
       <source srcset="/team-project/assets/girl@2x-c31d316c.png 2x, /team-project/assets/girl-60c0e09e.png 1x" media="(min-width: 1280px)" />
+        <source srcset="
+        ./images/modal/tablet/girl@2x.webp 2x,
+        ./images/modal/tablet/img.webp 1x
+      " media="(min-width: 768px)" />
       <source srcset="
           ./images/modal/tablet/girl@2x.png 2x,
           ./images/modal/tablet/img.png     1x
