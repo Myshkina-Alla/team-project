@@ -66,7 +66,8 @@
 }
 .vegetable-icon {
   fill: var(--white-text-color);
-  rotate: 15deg;
+  transform: rotate(15deg);
+  /* rotate: 15deg; */
 }
 .vegetable-button:hover {
   background-color: var(--picnic-color);
@@ -76,7 +77,8 @@
 .vegetable-icn-btn {
   display: block;
   gap: 4px;
-  rotate: -15deg;
+  transform: rotate(-15deg);
+  /* rotate: -15deg; */
 }
 
 /* Media */
