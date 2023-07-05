@@ -9,6 +9,7 @@
     <h2 class="modal-title">Your Order</h2>
 
     <ul class="product-list">
+
       <li class="product-item cabbage-item">
         <label for="cabbage">
           <div class="card-wrapper">
@@ -41,12 +42,11 @@
       </li>
 
       <li class="product-item vegetables-item">
-        <label for="vegetables">
+        <label for="vegetable">
           <div class="card-wrapper">
             <h3 class="card-title">Vegetables Basket</h3>
             <p class="card-text">Plant</p>
-            <input class="checkbox visually-hidden" type="checkbox" id="vegetables" value="true"
-              name="Vegetables Basket" />
+            <input class="checkbox visually-hidden" type="checkbox" id="vegetable" value="true" name="Vegetables Basket" />
             <span class="checkbox-custom-field">
               <svg class="checkbox-icon">
                 <use href="./images/icons.svg#pick"></use>
@@ -55,6 +55,7 @@
           </div>
         </label>
       </li>
+      </li>
     </ul>
 
     <form class="form">
@@ -62,20 +63,29 @@
           placeholder="Enter full name..." /></label>
       <label><input class="input-field" type="email" name="email" required
           pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Enter email..." /></label>
-      <label><input class="input-field" type="text" name="card" required maxlength="19" pattern="[0-9]{13,19}"
+      <label><input class="input-field" type="text" name="card" required maxlength="19" pattern="\d{4}\s\d{4}\s\d{4}\s\d{4}"
           placeholder="Enter card..." /></label>
       <label>
         <textarea class="comment" name="comment" placeholder="Enter comments..."></textarea>
       </label>
+
+      <button class="submit-button" type="submit">Submit</button>
+
     </form>
 
-    <button class="submit-button" type="submit">Submit</button>
-
     <picture class="modal-picture">
+      <source srcset="
+          ./images/modal/desktop/girl@2x.webp 2x,
+          ./images/modal/desktop/girl.webp    1x
+        " media="(min-width: 1280px)" />
       <source srcset="
           ./images/modal/desktop/girl@2x.png 2x,
           ./images/modal/desktop/girl.png    1x
         " media="(min-width: 1280px)" />
+        <source srcset="
+        ./images/modal/tablet/girl@2x.webp 2x,
+        ./images/modal/tablet/img.webp 1x
+      " media="(min-width: 768px)" />
       <source srcset="
           ./images/modal/tablet/girl@2x.png 2x,
           ./images/modal/tablet/img.png     1x
