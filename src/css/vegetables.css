@@ -210,13 +210,14 @@
     height: 114px;
     border-radius: 114px;
   }
+  .vegetable-text-btn {
+    font-size: 18px;
+    letter-spacing: -0.72px;
+  }
   .vegetable-button {
   }
 }
-.vegetable-text-btn {
-  font-size: 18px;
-  letter-spacing: -0.72px;
-}
+
 @media screen and (min-width: 1280px) {
   .vegetable-container {
     padding-bottom: 122px;
