@@ -170,7 +170,8 @@
 
 /* ===========media======== */
 
-@media screen and (min-width: 375px) {}
+@media screen and (min-width: 375px) {
+}
 
 @media screen and (min-width: 768px) {
   .list-container {
@@ -199,8 +200,6 @@
   }
 }
 
-
-
 /* rev btn */
 .is-hide {
   fill: transparent;
@@ -210,7 +209,7 @@
   display: none;
 }
 
-.is-hide+.js-btn-hide {
+.is-hide + .js-btn-hide {
   stroke: var(--logo-color);
 }
 
