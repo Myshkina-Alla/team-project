@@ -5,6 +5,7 @@
   const mobileMenu = document.querySelector('.js-menu-container');
   const openMenuBtn = document.querySelector('.js-open-menu');
   const closeMenuBtn = document.querySelector('.js-close-menu');
+  const closeMenuLink = document.querySelectorAll('.mob-header-link');
 
   const toggleMenu = () => {
     mobileMenu.classList.toggle('is-open');
@@ -13,6 +14,7 @@
   const toggleButton = () => {
     buttonMenu.classList.toggle('is-hide');
   };
+  closeMenuLink.forEach(item => item.addEventListener('click', toggleMenu));
   openMenuBtn.addEventListener('click', toggleMenu);
   closeMenuBtn.addEventListener('click', toggleMenu);
   onHideBtn.addEventListener('click', toggleButton);
