@@ -358,6 +358,7 @@
 .comment {
   display: block;
   padding: 14px 24px;
+  margin-bottom: 20px;
   width: 100%;
   height: 132px;
   resize: none;
@@ -381,9 +382,7 @@
 .comment:focus {
   border-color: var(--habanero-color);
 }
-.form {
-  margin-bottom: 20px;
-}
+
 .submit-button {
   display: block;
   padding: 12px 24px;

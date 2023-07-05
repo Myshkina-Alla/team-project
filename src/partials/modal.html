@@ -80,13 +80,13 @@
 
         <label><input class="input-field" type="text" name="name" minlength="2" required pattern="^[a-zA-Z]+\s[a-zA-Z]+$" placeholder="Enter full name..."/></label>
         <label><input class="input-field" type="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Enter email..."/></label>
-        <label><input class="input-field" type="text" name="card" required maxlength="19" pattern="[0-9]{13,19}" placeholder="Enter card..."/></label>
+        <label><input class="input-field" type="text" name="card" required maxlength="19" pattern="\d{4}\s\d{4}\s\d{4}\s\d{4}" placeholder="Enter card..."/></label>
         <label><textarea class="comment" name="comment" placeholder="Enter comments..."></textarea></label>
        
+        <button class="submit-button" type="submit">Submit</button>
+
         </form>
        
-        <button class="submit-button" type="submit">Submit</button>
-    
         <picture
         class="modal-picture">
                 <source
