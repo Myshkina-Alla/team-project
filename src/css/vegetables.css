@@ -42,13 +42,9 @@
   color: var(--text-color);
 }
 /* .vegetable-wrap {
-  width: 321px;
-  height: 261px;
   margin-bottom: 32px;
 } */
 .vegetable-img {
-  width: 100%;
-  height: auto;
 }
 .vegetable-img:hover,
 .vegetable-img:focus {
@@ -70,12 +66,20 @@
 }
 .vegetable-icon {
   fill: var(--white-text-color);
+  rotate: 15deg;
 }
 .vegetable-button:hover {
   background-color: var(--picnic-color);
 }
+.vegetable-text-btn {
+}
+.vegetable-icn-btn {
+  gap: 4px;
+  rotate: -15deg;
+}
 
 /* Media */
+
 .vegetable-container {
   padding-bottom: 80px;
 }
@@ -104,32 +108,34 @@
 .vegetable-item {
   width: 335px;
   height: auto;
-  padding-left: 20px;
+  padding-top: 40px;
   padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
 }
 .vegetable-subtitle {
   font-size: 24px;
-  /* line-height: 1.1px; */
+  line-height: 1.1;
   letter-spacing: -0.96px;
   margin-bottom: 8px;
-  padding-top: 40px;
+  /* padding-top: 40px; */
 }
 .vegetable-desc {
   font-size: 14px;
-  /* line-height: 1.28px; */
+  line-height: 1.28;
   letter-spacing: -0.28px;
   margin-bottom: 22px;
 }
 .vegetable-wrap {
-  margin-bottom: 20px;
 }
 .vegetable-img {
+  width: 100%;
+  height: auto;
 }
 .vegetable-price {
   font-size: 14px;
-  /* line-height: 1.28px; */
+  line-height: 1.28;
   letter-spacing: -0.56px;
-  padding-bottom: 20px;
 }
 .redish-img {
   display: none;
@@ -145,11 +151,9 @@
 }
 .vegetable-text-btn {
   font-size: 14px;
+  letter-spacing: -0.56px;
 }
-.vegetable-text-btn @media screen and (min-width: 375px) {
-  /* .container {
-    max-width: 320px;
-  } */
+@media screen and (min-width: 375px) {
 }
 @media screen and (min-width: 768px) {
   .vegetable-container {
@@ -158,13 +162,13 @@
   .vegetable-title {
     max-width: 624px;
     font-size: 28px;
-    /* line-height: 1.14; */
+    line-height: 1.14;
     letter-spacing: -1.12px;
   }
   .vegetable-text {
     max-width: 562px;
     font-size: 18px;
-    /* line-height: 1.33; */
+    line-height: 1.33;
     letter-spacing: -0.72px;
   }
   .vegetable-list {
@@ -175,22 +179,30 @@
   .vegetable-item {
     width: 341px;
     height: auto;
+    padding-top: 64px;
+    padding-right: 20px;
+    padding-bottom: 24px;
+    padding-left: 20px;
   }
   .vegetable-subtitle {
     font-size: 28px;
-    /* line-height: 1.14px; */
+    line-height: 1.14;
     letter-spacing: -1.12px;
   }
   .vegetable-desc {
     font-size: 18px;
-    /* line-height: 1.33px; */
+    line-height: 1.33;
     letter-spacing: -0.36px;
   }
+  .vegetable-wrap {
+  }
   .vegetable-img {
+    width: 100%;
+    height: 262px;
   }
   .vegetable-price {
     font-size: 18px;
-    /* line-height: 1.33px; */
+    line-height: 1.33;
     letter-spacing: -0.72px;
   }
   .vegetable-button {
@@ -202,7 +214,8 @@
   }
 }
 .vegetable-text-btn {
-  font-size: 14px;
+  font-size: 18px;
+  letter-spacing: -0.72px;
 }
 @media screen and (min-width: 1280px) {
   .vegetable-container {
@@ -227,22 +240,28 @@
   .vegetable-item {
     width: 389px;
     height: auto;
+    padding-top: 64px;
+    padding-right: 20px;
+    padding-bottom: 24px;
+    padding-left: 20px;
   }
   .vegetable-subtitle {
     font-size: 28px;
-    /* line-height: 1.14px; */
+    line-height: 1.14;
     letter-spacing: -1.28px;
   }
   .vegetable-desc {
     font-size: 18px;
-    /* line-height: 1.33px; */
+    line-height: 1.33;
     letter-spacing: -0.36px;
   }
   .vegetable-img {
+    width: 100%;
+    height: 303px;
   }
   .vegetable-price {
     font-size: 18px;
-    /* line-height: 1.33px; */
+    line-height: 1.33;
     letter-spacing: -0.72px;
   }
   .vegetable-button {
@@ -252,6 +271,7 @@
   }
   .vegetable-text-btn {
     font-size: 18px;
+    letter-spacing: -0.72px;
   }
   .redish-img {
     display: block;
