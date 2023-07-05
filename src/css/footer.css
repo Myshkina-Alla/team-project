@@ -4,9 +4,9 @@
     padding: 80px 0;
     background-color: var(--lime-color);
 }
-.link {
+/* .link {
     text-decoration: none;
-}
+} */
 
 .footer-wrap {
     display: flex;
@@ -129,6 +129,8 @@
 }
 /* Адрес */
 .footer-address-text {
+    display: block;
+
     text-align: center;
     font-style: normal;
     font-size: 14px;
@@ -136,12 +138,12 @@
     font-weight: 400;
     line-height: 1.2;
     letter-spacing: -0.28px;
+
+    color: var(--text-color);
 }
 
 @media screen and (min-width: 375px) {
-    .container {
-        max-width: 375px;
-    }
+
 }
 
 @media screen and (min-width: 768px) {
