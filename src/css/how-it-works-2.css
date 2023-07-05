@@ -97,8 +97,8 @@
 
 /*===media-375px===*/
 
-@media screen and (min-width: 375px) {
-  .steps {
+@media screen and (max-width: 374px) {
+  .steps-container {
   }
 }
 
