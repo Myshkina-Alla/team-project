@@ -45,8 +45,6 @@
   margin-bottom: 32px;
 } */
 .vegetable-img {
-  width: 100%;
-  height: auto;
 }
 .vegetable-img:hover,
 .vegetable-img:focus {
@@ -110,15 +108,17 @@
 .vegetable-item {
   width: 335px;
   height: auto;
-  padding-left: 20px;
+  padding-top: 40px;
   padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
 }
 .vegetable-subtitle {
   font-size: 24px;
   line-height: 1.1;
   letter-spacing: -0.96px;
   margin-bottom: 8px;
-  padding-top: 40px;
+  /* padding-top: 40px; */
 }
 .vegetable-desc {
   font-size: 14px;
@@ -127,15 +127,15 @@
   margin-bottom: 22px;
 }
 .vegetable-wrap {
-  margin-bottom: 20px;
 }
 .vegetable-img {
+  width: 100%;
+  height: auto;
 }
 .vegetable-price {
   font-size: 14px;
   line-height: 1.28;
   letter-spacing: -0.56px;
-  padding-bottom: 20px;
 }
 .redish-img {
   display: none;
@@ -179,6 +179,10 @@
   .vegetable-item {
     width: 341px;
     height: auto;
+    padding-top: 64px;
+    padding-right: 20px;
+    padding-bottom: 24px;
+    padding-left: 20px;
   }
   .vegetable-subtitle {
     font-size: 28px;
@@ -190,7 +194,11 @@
     line-height: 1.33;
     letter-spacing: -0.36px;
   }
+  .vegetable-wrap {
+  }
   .vegetable-img {
+    width: 100%;
+    height: 262px;
   }
   .vegetable-price {
     font-size: 18px;
@@ -232,6 +240,10 @@
   .vegetable-item {
     width: 389px;
     height: auto;
+    padding-top: 64px;
+    padding-right: 20px;
+    padding-bottom: 24px;
+    padding-left: 20px;
   }
   .vegetable-subtitle {
     font-size: 28px;
@@ -244,6 +256,8 @@
     letter-spacing: -0.36px;
   }
   .vegetable-img {
+    width: 100%;
+    height: 303px;
   }
   .vegetable-price {
     font-size: 18px;
