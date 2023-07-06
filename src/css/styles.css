@@ -8,3 +8,20 @@
 @import url('./we-will-call-you.css');
 @import url('./footer.css');
 @import url('./modal.css');
+
+.goust-btn-box {
+    position: fixed;
+    left: 50%;
+    bottom: 2%;
+    transform: translateX(-50%);
+
+}
+
+.home-btn {
+    /* border-color: rgba(131, 101, 80, 0.33); */
+    border: solid rgba(131, 101, 80, 0.33);
+    border-radius: 50%;
+    background-color: rgba(107, 135, 80, 0.2);
+    width: 44px;
+    height: 44px;
+}
