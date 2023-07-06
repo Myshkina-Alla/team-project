@@ -1,69 +1,73 @@
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
-    --text-color: #141414;
-    --white-text-color: #ffffff;
-    --picnic-color: #a1c487;
-    --lime-color: #eaf7e5;
-    --habanero-color: #fc8a11;
-    --milk-mustache-color: #faf3e7;
-    --white-smoke: #f3f3f3;
-    --logo-color: #77ac63;
-    --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  /**
+  --text-color: #141414;
+  --white-text-color: #ffffff;
+  --picnic-color: #a1c487;
+  --lime-color: #eaf7e5;
+  --habanero-color: #fc8a11;
+  --milk-mustache-color: #faf3e7;
+  --white-smoke: #f3f3f3;
+  --logo-color: #77ac63;
+  --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+/**
     |============================
     | Сбос стилей
     |============================
   */
-  h1,
-  h2,
-  h3,
-  p {
-    margin: 0;
-    padding: 0;
-  }
-  ul {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
-  }
-  img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
-  .hidden {
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
-  button {
-    cursor: pointer;
-  }
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.hidden {
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+button {
+  cursor: pointer;
+}
 
-  body {
-    font-family: "dm sans" , "sans-serif";
-  }
-  .list {
-    list-style: none;
-  }
-  .link {
-    text-decoration: none;
-  }
-  
-  /**
+body {
+  font-family: 'dm sans', 'sans-serif';
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+/**
     |============================
     | Container
     |============================
   */
 
-  /*================================ mobail container============================= */
+/*================================ mobail container============================= */
 
 .container {
   margin-left: auto;
@@ -73,43 +77,35 @@
   padding-right: 20px;
 }
 /* цей контейнер викор для hero , footer, mobil menu для беграндних колярів разом з containergit  */
-.containerFullwidth{
-    width: 100%;
+.containerFullwidth {
+  width: 100%;
 }
 /* nh */
 
 @media screen and (min-width: 375px) {
-
 }
-
 
 /* ================================tablet===================== */
 
 @media screen and (min-width: 768px) {
-.container {
-  width: 768px; 
-  margin-right: auto;  
-  margin-left: auto;
-  padding-left: 32px;
-  padding-right: 32px;
-}
+  .container {
+    width: 768px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 }
 
 /* ================================desctop===================== */
 
-@media screen and (min-width: 1280px){
-.container {
- width: 100%;  
- max-width: 1280px;
- margin-left: auto;
- margin-right: auto;
- padding-left: 32px;
- padding-right: 32px;   
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 100%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 }
-}
-
-
-
-
- 
-
