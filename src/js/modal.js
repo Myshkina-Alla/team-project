@@ -2,7 +2,7 @@
   const refs = {
     openModalBtnVegetables: document.querySelector('[data-vegetables-modal-open]'),
     // openModalBtnHederMenu: document.querySelector(
-    //   '[heder-menu-modal-open]'
+    //   '[data-heder-menu-modal-open]'
     // ),
     openModalBtnHeder: document.querySelector('[data-heder-modal-open]'),
     openModalBtn: document.querySelector('[data-modal-open]'),
