@@ -6,20 +6,23 @@
   const openMenuBtn = document.querySelector('.js-open-menu');
   const closeMenuBtn = document.querySelector('.js-close-menu');
   const closeMenuLink = document.querySelectorAll('.mob-header-link');
-
   const toggleMenu = () => {
     mobileMenu.classList.toggle('is-open');
   };
-
   const toggleButton = () => {
     buttonMenu.classList.toggle('is-hide');
   };
-  closeMenuLink.forEach(item => item.addEventListener('click', toggleMenu));
+  const toggleMenuClose = () => {
+    mobileMenu.classList.toggle('is-open');
+    buttonMenu.classList.toggle('is-hide');
+  };
+  closeMenuLink.forEach(item =>
+    item.addEventListener('click', toggleMenuClose)
+  );
   openMenuBtn.addEventListener('click', toggleMenu);
   closeMenuBtn.addEventListener('click', toggleMenu);
   onHideBtn.addEventListener('click', toggleButton);
   offHideBtn.addEventListener('click', toggleButton);
-
   // Close the mobile menu on wider screens if the device orientation changes
   // window.matchMedia('(min-width: 768px)').addEventListener('change', e => {
   //   if (!e.matches) return;
